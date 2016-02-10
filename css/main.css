@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
     font-size: 3rem;
     font-weight: 600;
-    line-height: 3.79rem;
+        line-height: 4.59rem;
     margin-top: 44px;
     margin-bottom: 25px;
     color: #fff;
@@ -1233,7 +1233,8 @@ h5 {
     margin-right: 22px;
 }
 .intro span {
-    display: block;
+    /*display: block;*/
+    display: inline-block !important;
 }
 
 /**
