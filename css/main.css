@@ -192,10 +192,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 85px;
 }
 
-header {
+header#hero {
     position: relative;
     color: #fff;
-    /*background:url(http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-macbook-air-mockup-v3-new-icons.jpg) no-repeat center top;*/
+    background:url(http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-macbook-air-mockup-v3-new-icons.jpg) no-repeat center top;
     background: #418f9a;
     background: #428bca;
     -webkit-background-size: cover!important;
@@ -205,7 +205,7 @@ header {
     overflow: hidden;
 }
 
-header .bg-overlay {
+header#hero .bg-overlay {
     display: block;
     position: absolute;
     top: 0;
