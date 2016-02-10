@@ -10,14 +10,39 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+html,body {
+    height: 100%
+    min-height: 100%;
+}
+
+
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: inherit;
+    height: auto;
 }
 
 body {
     min-font-size: 16px;
+
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6f7293;
+    overflow-x: hidden;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "franklin-gothic-urw", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #fff;
 }
 
 /*
@@ -113,9 +138,9 @@ h1 {
    Author's custom styles
    ========================================================================== */
 
-
-.element ~ .typed-cursor{
-    font-size: 150px;
+.typed-text,
+.typed-text ~ .typed-cursor{
+    font-size: 72px;
 }
 
 .typed-cursor{
@@ -141,6 +166,104 @@ h1 {
     100% { opacity:1; }
 }
 
+h1, h2, h3, h4, h5, h6, strong, a, cite, button, .btn {
+    font-family: 'Raleway', sans-serif;
+}
+
+#hero {
+    min-height: 100%;
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+header {
+    position: relative;
+    color: #fff;
+    /*background:url(http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-macbook-air-mockup-v3-new-icons.jpg) no-repeat center top;*/
+    background: #418f9a;
+    background: #428bca;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    overflow: hidden;
+}
+
+header .bg-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -moz-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -o-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -ms-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: linear-gradient(45deg, rgba(34, 113, 206, 0.9), rgba(45,50,88,.85));
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+.section-home, .section-inverse {
+    background-color: #2271CE;
+}
+
+.back-to-top {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    /*display: none;*/
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.chevron {
+    position: relative;
+    display:  block;
+    height:   30px;     /* Height (should be _double_ the border width) */
+        top: -5px;
+        left: 5px;
+}
+.chevron:before,
+.chevron:after {
+    position: absolute;
+    display:  block;
+    content:  "";
+    border:   15px solid transparent; /* Size */
+}
+/**
+ * Change parameter `top` below to _rotate_ the chevron 
+ * Possible values: top/right/bottom/left
+ */
+.chevron:before {
+    bottom:              0;
+    border-bottom-color: #fff; /* Color */
+}
+.chevron:after {
+    bottom:              -2px; /* Thickness*/
+    border-bottom-color: #000;  /* Match background color */
+}
 
 
 /* ==========================================================================

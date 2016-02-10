@@ -1,147 +1,157 @@
 <!doctype html>
-<html class="no-js" lang="cs-CZ">
+<html class="no-js" lang="cs-CZ" dir="ltr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Kolektivní energie &mdash plyn a elektřina | PROPULS SOLAR - SUNTIME</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <style>
+        body {
+            opacity: 0;
+            animation: amp-timeout 0s 5s 1 normal forwards;
+        }
+        @keyframes amp-timeout {
+              0%  { opacity: 0; }
+            100%  { opacity: 1; }
+        }
+        </style>
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" crossorigin="anonymous" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw=" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" crossorigin="anonymous" integrity="sha256-o8bM0Z5cFvrvvvQp0EJFi4LICvBA9FCx7iCNuojVsN8=" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-
-
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script crossorigin="anonymous" integrity="sha256-2oGVQmkrPxwqZnujTv80Zagtl1aVOhRGq30Hcvmx7dU=" src="https://cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
+
+        <script crossorigin="anonymous" integrity="sha256-2oGVQmkrPxwqZnujTv80Zagtl1aVOhRGq30Hcvmx7dU=" src="https://cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js" async></script>
         <script>window.Modernizr || document.write('<script src="js/vendor/modernizr-2.8.3.min.js"><\/script>')</script>
     </head>
     <body>
+        <noscript><style>body { opacity: 1; }</style></noscript>
         <!--[if lt IE 8]>
             <p class="browserupgrade">Používáte <strong>zastaralý</strong> prohlížeč. Doporučujeme si <a href="http://browsehappy.com/">aktualizovat váš prohlížeč</a> aby jste disáhli maximálního pohodlí v prohlížení stránek.</p>
         <![endif]-->
 
+        <header id="hero">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="logo col-xs-4">
+                    <div class="text-logo">
+                        <a class="logo" href="#">
+                            <img src="graphics/logo_suntime.svg" alt="" width="250" height="44">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <!--
+                    <i class="fa fa-bars phone-menu hidden-md hidden-lg"></i>
+                    <nav class="main-navigation">
+                        <ul>
+                            <li><a class="blogmenu" href="#sec_40">Features</a></li>
+                            <li><a class="blogmenu" href="#sec_42">FlixTools Lite</a></li>
+                            <li><a class="blogmenu" href="#sec_143">FlixTools Pro</a></li>
+                            <li><a class="blogmenu" href="#sec_46">Gallery</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+                    -->
+                </div>
+                <div class="col-xs-4">
+                    <div class="text-logo pull-right">
+                        <a class="logo" href="#">
+                            <img src="graphics/logo_propuls_solar.svg" alt="" width="182" height="55">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container header-tag">
+                <h1>
+                    <span class="typed-text">The easiest way to download subtitles for your movies</span>
+                </h1>
+                <h2 class="lead">Download subtitles from OpenSubtitles.org in a matter of seconds (and much more)</h2>
+                <a href="#sec_42" class="w_btn">Download OS FlixTools Lite </a>
+                <div id="typed-strings">
+                    <p>Typed.js is a <strong>jQuery</strong> plugin.</p>
+                    <p>It <em>types</em> out sentences.</p>
+                </div>
+                <span id="typed"></span>
 
-<header id="option_header" style="background:url(http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-macbook-air-mockup-v3-new-icons.jpg) no-repeat center top;">
-<div class="black-background-overlay" style="opacity: 0;"></div>
-<p style="color:#eee;text-align:center;">You will get <a href="http://dl.opensubtitles.org/en/download/sub/vrf-108d030f/5929844">subtitles</a> from <a onclick="javascript:history.back();" href="http://www.opensubtitles.org">OpenSubtitles.org</a> soon. <a href="http://www.opensubtitles.org/en/support#vip">Support us</a> and get instant download</p> <div class="container top_interface ">
-<div class="logo col-md-2 col-sm-8 col-xs-8">
-<div class="text-logo">
-<a class="blogmenu" href="#option_header">
-<img src="http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-logo-white-small@2x.png" alt="" width="190" height="52">
-</a>
-</div>
-</div>
-<div class="col-md-10 col-sm-4 col-xs-4">
-<i class="fa fa-bars phone-menu hidden-md hidden-lg"></i>
-<nav class="main_navigation">
-<ul>
-<li>
-<a class="blogmenu" href="#sec_40">
-Features </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_42">
-FlixTools Lite </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_143">
-FlixTools Pro </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_46">
-Gallery </a>
-</li>
-<li>
-<a href=""></a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-<div class="container top_interface sticky_menu">
-<div class="logo col-md-2 col-sm-8 col-xs-8">
-<div class="text-logo">
-<a class="blogmenu" href="#option_header">
-<img src="http://www.flixtools.com/wp-content/uploads/2016/01/flixtools-logo-white-small@2x.png" alt="" width="190" height="52">
-</a>
-</div>
-</div>
-<div class="col-md-10 col-sm-4 col-xs-4">
-<i class="fa fa-bars phone-menu hidden-md hidden-lg"></i>
-<nav class="main_navigation">
-<ul>
-<li>
-<a class="blogmenu" href="#sec_40">
-Features </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_42">
-FlixTools Lite </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_143">
-FlixTools Pro </a>
-</li>
-<li>
-<a class="blogmenu" href="#sec_46">
-Gallery </a>
-</li>
-<li>
-<a href=""></a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-<div class="container header_tag">
-<h1>The easiest way to download subtitles for your movies</h1>
-<h2>Download subtitles from OpenSubtitles.org in a matter of seconds (and much more)</h2>
-<a href="#sec_42" class="w_btn">
-Download OS FlixTools Lite </a>
-</div>
-<div class="container phone_preview">
-<div class="col-md-3 hidden-xs hidden-sm col-sm-4 regular_text_left">
-<h3> <i class="fa "></i></h3>
-<p></p>
-</div>
-<div class="adsense2 adsense-top">
-<script async="" data-rocketsrc="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/rocketscript"></script>
- 
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6615803172761217" data-ad-slot="7634155285" data-ad-format="auto"></ins>
-<script type="text/rocketscript">
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-4 col-sm-8 app_phone">
-<img src="http://www.flixtools.com/wp-content/uploads/2015/07/banner_device2-350x397.png" class="img-responsive phone_responsive" alt="">
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-3 hidden-xs regular_text_right">
-</div>
-</div>
-</header>
+                <p>
+                    Have a project for us?<a href="mailto:contact+hero@indicius.com?Subject=Let%27s%20talk">Let's talk<!--?xml version="1.0" encoding="utf-8"?-->
+                    <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 
-        <span class="element" style="font-size:150px;">ssssssssssssssss</span>
-        
-        <div id="typed-strings">
-            <p>Typed.js is a <strong>jQuery</strong> plugin.</p>
-            <p>It <em>types</em> out sentences.</p>
-        </div>
-        <span id="typed"></span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+                    <g>
+                        <path fill="#FFFFFF" d="M15.901,31.355c-8.503,0-15.421-6.918-15.421-15.42c0-8.503,6.918-15.421,15.421-15.421
+                            s15.421,6.918,15.421,15.421C31.322,24.437,24.404,31.355,15.901,31.355L15.901,31.355z M15.901,1.514
+                            C7.949,1.514,1.48,7.983,1.48,15.935s6.469,14.42,14.421,14.42c7.952,0,14.421-6.469,14.421-14.42S23.853,1.514,15.901,1.514
+                            L15.901,1.514z"></path>
+                    </g>
+                    <polygon fill="#FFFFFF" points="10.182,15.341 19.12,15.341 15.182,11.403 16.12,10.341 21.62,15.903 21.62,16.403 16.182,21.529
+                        15.182,20.466 19.12,16.403 10.182,16.403 "></polygon>
+                    </svg>
+                    </a>
+                </p>
+            </div>
+        </header>
 
+        <main class="main">
+            <section id="services" class="section">
+                <div class="container">
+                    <h2 class="text-center">Services</h2>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="service animated slideInLeft visible" data-animation="slideInLeft" data-delay="0">
+                                <div id="service-data" class="content-anchor sr-only" aria-hidden="true"></div>
+                                <input type="radio" name="service" id="nav-trigger-service-data" class="nav-trigger" value="data">
+                                <label for="nav-trigger-service-data">
+                                      <img alt="[Data, Services]" class="img-responsive service-data-50x50" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7">Data
+                                </label>
+                                <div class="service-content">
+                                    <h3>Data</h3>
+                                    Data services provide your company a comprehensive look at&nbsp;your company’s data environment.
+                                    This includes analysis of your company’s data quality and understanding just how your company constructs,
+                                    amends, and consolidates data to become a manageable and functional resource for employees.
+                                    In addition, we offer data migration, easily moving your data from its original source to your target platform.
+                                    We also provide data processing, according to your company’s needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="service last animated slideInRight visible" data-animation="slideInRight" data-delay="0">
+                                <div id="service-security" class="content-anchor sr-only" aria-hidden="true"></div>
+                                <input type="radio" name="service" id="nav-trigger-service-security" class="nav-trigger" value="security">
+                                <label for="nav-trigger-service-security">
+                                    
+                                    <img alt="[Security, Services]" class="img-responsive service-security-50x50" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7">Security
+                                </label>
+                                <div class="service-content">
+                                    <h3>Security</h3>
+                                    In today’s digital world, cyber criminals centered on stealing your company’s sensitive information,
+                                    are a real threat. For this reason, it is important to recognise where your company may be vulnerable,
+                                    any misconfigurations, or gaps in access to your data and storerooms. We maintain your company’s security,
+                                    including application security and network security. We offer physical security, such as surveillance
+                                    systems and secured server rooms. We also arrange security audits on the level of information security
+                                    that your company upholds, and repairs any weak points that may be discovered.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
 
         <footer>
-        Patička webu může obsahovat samozřejmě opět sekce, menu a další prvky.
+            Patička webu může obsahovat samozřejmě opět sekce, menu a další prvky.
         </footer>
 
+        <a href="#" class="back-to-top"><i class="chevron"></i></a>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -153,7 +163,7 @@ Download OS FlixTools Lite </a>
         <!-- https://github.com/mattboldt/typed.js/ -->
         <script>
             $(function(){
-                $(".element").typed({
+                $(".typed-text").typed({
                     strings: ["First ^1000 sentence.", "Second sentence."],
                     typeSpeed: 0
                 });
@@ -166,6 +176,8 @@ Download OS FlixTools Lite </a>
                 });
             });
         </script>
+
+        <style>body { opacity: 1; }</style>
 
         <!-- Google Analytics -->
         <script>
