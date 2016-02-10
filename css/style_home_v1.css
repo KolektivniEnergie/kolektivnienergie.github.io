@@ -1,0 +1,44 @@
+#home {
+	position: relative;
+	padding: 100px 0;
+}
+.control-home {
+ 	padding-top: 80px;
+ 	text-align: left;
+ }
+.section-home .phone-image {
+	padding: 30px 0;
+} 
+.phone-image img {
+	max-width: 100%;
+}
+.intro-section {
+	padding-top: 110px;
+}
+.intro {
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 3.79rem;
+	margin-top: 44px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+.intro-section h4 {
+	margin-bottom: 40px;
+	color: #fff;
+}
+.section-home .btn-download {
+	border: 2px solid #fff;
+	color: #fff;
+}
+@media (max-width: 991px) {
+	.intro-section {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 768px) {
+	.control-home {
+		padding-top: 0px;
+	}
+}
+

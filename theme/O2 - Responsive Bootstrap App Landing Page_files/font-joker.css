@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'font-joker';
+	src:url('fonts/font-joker.eot?-mst6wz');
+	src:url('fonts/font-joker.eot?#iefix-mst6wz') format('embedded-opentype'),
+		url('fonts/font-joker.woff?-mst6wz') format('woff'),
+		url('fonts/font-joker.ttf?-mst6wz') format('truetype'),
+		url('fonts/font-joker.svg?-mst6wz#font-joker') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="csicon-"], [class*=" csicon-"] , .csicon {
+	font-family: 'font-joker';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.csicon-rating-empty:before {
+	content: "\e600";
+}
+
+.csicon-rating-half:before {
+	content: "\e601";
+}
+
+.csicon-rating-half-inverse:before {
+	content: "\e602";
+}
+
+.csicon-rating:before {
+	content: "\e006";
+}
+
+.csicon-pretty-line:before {
+	content: "\e603";
+}
+

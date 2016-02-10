@@ -1,0 +1,128 @@
+
+
+.home-background-overlay,
+.section-inverse:before {
+    background-image: -webkit-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -moz-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -o-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: -ms-linear-gradient(45deg, rgba(34, 113, 206,.85), rgba(45,50,88,.85));
+    background-image: linear-gradient(45deg, rgba(34, 113, 206, 0.9), rgba(45,50,88,.85));
+}
+
+.section-home,
+.section-inverse {
+    background-color: #2271CE;
+} 
+
+.icon-hex-inverse .icon,
+.icon-inverse .icon-inner,
+.icon-inverse .icon,
+.icon-double .icon,
+.drop-nav .navbar-nav.navbar-right > .active a,
+.header-section .navbar-nav.navbar-right >li a:hover,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus, 
+.btn-default:active,
+.btn-default.active,
+.section-home .btn-download:hover,
+.section-home .btn-download:focus,
+.section-home .btn-download.focus, 
+.section-home .btn-download:active,
+.section-home .btn-download.active,
+.header-section .navbar-nav.navbar-right >li a:hover,
+.features-list-item .icon,
+.features-list-item .icon-hex-in,
+.features-list-item .icon-hex-in:after,
+.features-list-item .icon-hex-in:before,
+.panel-title .expand-icon-wrap,
+.panel-body-icon i,
+.owl-buttons div:hover,
+.workway-section .icon-download:hover .downloadicon-text,
+.counter-box .icon-wrapper .icon,
+.price-number,
+.getapp-section .btn-download {
+    color: #3F86D8;
+}
+
+.icon-inner,
+.navbar-after-scroll.navbar-inverse .navbar-toggle .icon-bar,
+.navbar-after-scroll .navbar-nav.navbar-right .active a,
+.features-list-item:hover .icon-inner,
+.features-list-item:hover .icon-inner, 
+.features-list-item:hover .icon-hex-in, 
+.features-list-item:hover .icon-hex-in:after,
+.features-list-item:hover .icon-hex-in:before,
+.discount-section .btn:hover,
+.drop-accordion .tab-collapsed,
+.counter-box:hover .icon-hex-in,
+.hex-bg, .hex-bg:after, .hex-bg:before,
+.counter-box:hover .icon-hex-in:after, 
+.counter-box:hover .icon-hex-in:before,
+.hex-bg, .hex-bg:after, .hex-bg:before,
+.counter-box:hover .icon-inner,
+.golden-plan.active .price-wrapper .icon-inner,
+.pricing-package:hover .price-wrapper .icon-inner,
+.pricing-package:hover .icon-hex-in,
+.pricing-package:hover .icon-hex-in:after,
+.pricing-package:hover .icon-hex-in:before,
+.golden-plan.active .icon-hex-in, 
+.golden-plan.active .icon-hex-in:after, 
+.golden-plan.active .icon-hex-in:before,
+.getapp-section .btn-download:hover,
+.social-media-links li:hover .icon-inner,
+.social-media-links li:hover .icon-hex-in, 
+.social-media-links li:hover .icon-hex-in:after, 
+.social-media-links li:hover .icon-hex-in:before {
+    background-color: #3F86D8;
+}
+
+.pretty-line,
+.overview-details:hover .pretty-line {
+    background-color: #3F86D8;
+    color: #3F86D8;
+}
+
+.icon-hex-inverse .icon-hex,
+.icon-hex-inverse .icon-hex:before, 
+.icon-hex-inverse .icon-hex:after {
+    background: #7394C0;
+    border-color: #7394C0;
+}
+
+.overview-details:hover .icon-outer,
+.navbar-after-scroll .navbar-toggle,
+.navbar-after-scroll .navbar-toggle,
+.timeline-list-item:hover .icon-outer,
+.workway-section .icon-download:hover .icon-outer,
+.getapp-section .btn-download {
+    border-color: #3F86D8;
+}
+
+.tab-collapsed .expand-icon-wrap,
+.navbar-after-scroll .navbar-nav .active a {
+    color: #fff!important;
+}
+
+.overview-details:hover .icon-hex:before,
+.overview-details:hover .icon-hex,
+.overview-details:hover .icon-hex:after,
+.icon-download:hover .icon-hex, 
+.icon-download:hover .icon-hex:before, 
+.icon-download:hover .icon-hex:after,
+.timeline-list-item:hover .icon-hex, 
+.timeline-list-item:hover .icon-hex:before, 
+.timeline-list-item:hover .icon-hex:after,
+.pricing-package:hover .icon-hex-in,
+.pricing-package:hover .icon-hex-in:after,
+.pricing-package:hover .icon-hex-in:before,
+.golden-plan.active .icon-hex-in, 
+.golden-plan.active .icon-hex-in:after, 
+.golden-plan.active .icon-hex-in:before {
+    border-left-color: #3F86D8;
+    border-right-color: #3F86D8;
+}
+.discount-section .btn:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.20);
+}
