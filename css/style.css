@@ -1300,6 +1300,17 @@ ul.workway-timeline {
 	margin-top: 0;
 }
 
+/* fix */
+.workway-timeline {
+    position: relative;
+}
+.workway-timeline:before {
+    left: 39px;
+}
+.workway-timeline.short:before {
+    bottom: 30%;
+}
+
 /**
 * ========================================
 * App reveiws SECTION
