@@ -148,10 +148,10 @@ h1 {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: inherit;
-
-    
-    border-left: 3px solid #939FA9;
-
+    border-left: 3px solid #A1A1A2;
+    left: 0px;
+    position: relative;
+    color: transparent;
 }
 @keyframes blink{
     0% { opacity:1; }
