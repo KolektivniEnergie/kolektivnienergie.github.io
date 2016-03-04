@@ -837,7 +837,9 @@ h5 {
 	margin-top: 20px;
 }
 .download-button .btn {
-	width: 144px;
+	width: 40%;
+	max-width: 250px;
+	min-width: 185px;
 	margin-bottom: 15px;
 	margin-right: 22px;
 }
