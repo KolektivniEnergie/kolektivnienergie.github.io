@@ -159,7 +159,7 @@
 				height: '100%'
 			})
 			.appendTo(jLoader)
-			.html('Loading...');
+			.html('Načítám...');
 		}
 	}
 	
