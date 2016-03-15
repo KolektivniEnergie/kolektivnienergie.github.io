@@ -137,6 +137,7 @@ h1 {
    Author's custom styles
    ========================================================================== */
 
+/* Typed custom */
 .typed-text,
 .typed-text ~ .typed-cursor{
     font-size: 72px;
@@ -169,6 +170,37 @@ h1 {
     100% { opacity:1; }
 }
 
+/* Sections */
+.features-section .features-list {
+    padding-top: 0 !important; 
+}
+
+/* Anchors */
+.section a:not(.btn),
+.section-inverse a:not(.btn) {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: underline !important;
+}
+.section a:hover:not(.btn),
+.section a:focus:not(.btn),
+.section a:hover:not(.btn),
+.section a:active:not(.btn),
+.section-inverse a:hover:not(.btn),
+.section-inverse a:focus:not(.btn),
+.section-inverse a:hover:not(.btn),
+.section-inverse a:active:not(.btn) {
+    text-decoration: none !important;
+}
+.section-inverse a:not(.btn),
+.section-inverse a:link:not(.btn),
+.section-inverse a:focus:not(.btn),
+.section-inverse a:hover:not(.btn),
+.section-inverse a:active:not(.btn) {
+    color: #fff;
+}
+
+/* ------------ */
 h1, h2, h3, h4, h5, h6, strong, a, cite, button, .btn {
     font-family: 'Raleway', sans-serif;
 }
@@ -390,7 +422,6 @@ section {
 .section-inverse {
     background-color: #2271CE;
 } 
-
 
 
 /**

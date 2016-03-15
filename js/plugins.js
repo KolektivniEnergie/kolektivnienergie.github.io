@@ -44,3 +44,23 @@
       });
     }
 }(window, $));
+
+
+// Change hash without scrolling
+(function(win, doc, $) {
+    $.fn.changeHashWithoutScrolling = function(hash){
+        if(hash.indexOf("#") < 0) return;
+
+        var id = hash.replace(/^.*#/, '')
+            $el = $(doc.getElementById(id));
+
+        if($el.length > 0) {
+            console.log(hash, id, $el);
+            $el.removeAttr('id');
+            win.location.hash = hash;
+            $el.attr('id', id);
+        } else {
+            win.location.hash = hash;
+        }
+    }
+}(window, document, $));
