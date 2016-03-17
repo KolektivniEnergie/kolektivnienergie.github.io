@@ -137,6 +137,48 @@ h1 {
    Author's custom styles
    ========================================================================== */
 
+
+.progress {
+    border: 2px solid #fff !important;
+    color: #000 !important;
+    background-color: rgba(255, 255, 255, 0.09) !important;
+}
+.progress, .progress-bar {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.progress-bar-success,
+.progress-bar-warning,
+.progress-bar-danger {
+    background-color: #FFFFFF;
+    color: #000  !important;
+}
+.progress-bar-info {
+    background-color: rgba(255, 255, 255, 0);
+        color: #fff  !important;
+}
+.progress strong {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Pricing - response table */
+
+#pricing .example li {
+    list-style: inherit;
+}
+.table-responsive {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.table-responsive .table {
+    margin-bottom: 5px;
+}
+
+
 /* Typed custom */
 .typed-text,
 .typed-text ~ .typed-cursor{
@@ -2596,6 +2638,35 @@ ul.workway-timeline {
 .discount-section .btn:hover {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.20);
+}
+
+
+/* Layout view - Custom */
+
+/*xs+sm view*/
+@media (max-width: 991px) {
+
+    .header-section .drop-nav {
+        top: 15px !important;
+    }
+
+    .navbar-header {
+        width:50%;
+    }
+
+    .intro .typed-text,
+    .intro .typed-text ~ .typed-cursor {
+        font-size: 110%;
+    }
+
+}
+/*sm only view*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*sm view*/
+@media (min-width: 768px) {
+
 }
 
 
