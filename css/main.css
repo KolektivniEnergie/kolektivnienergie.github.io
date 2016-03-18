@@ -2654,6 +2654,14 @@ ul.workway-timeline {
         width:50%;
     }
 
+    .intro-section {
+        padding-top: 10px !important;
+    }
+    .intro {
+        margin-top: 0 !important;
+        min-height: 120px !important;
+    }
+
     .intro .typed-text,
     .intro .typed-text ~ .typed-cursor {
         font-size: 110%;
