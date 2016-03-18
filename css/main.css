@@ -2666,7 +2666,6 @@ ul.workway-timeline {
     .intro .typed-text ~ .typed-cursor {
         font-size: 110%;
     }
-
 }
 /*sm only view*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2675,6 +2674,12 @@ ul.workway-timeline {
 /*sm view*/
 @media (min-width: 768px) {
 
+}
+/*xs view*/
+@media (max-width: 768px) {
+    .progress-bar > span.visible-xs {
+        display: inline!important;
+    }
 }
 
 
